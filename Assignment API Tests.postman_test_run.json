@@ -1,0 +1,177 @@
+{
+	"id": "8d80766f-b008-4136-892c-ac102497e99b",
+	"name": "Assignment API Tests",
+	"timestamp": "2024-08-31T06:56:11.129Z",
+	"collection_id": "37998423-4d288900-64f5-45fe-901e-486fff27c8ca",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 5,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-08-31T06:56:09.169Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "8efb22ce-5ee5-473c-a916-1335bb3912a4",
+			"name": "Registration a new user",
+			"url": "https://www.facebook.com/",
+			"time": 302,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				302
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "376fe30c-0509-453c-a992-ee5b4e35c66d",
+			"name": "Login as an Existing User",
+			"url": "https://www.facebook.com/",
+			"time": 242,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				242
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "ebd896a3-9b1e-41b2-9148-f5cfdd7f05ef",
+			"name": "Create a Simple Post",
+			"url": "https://www.facebook.com/",
+			"time": 266,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				266
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "049f4513-2364-4470-8429-45145976945c",
+			"name": "Get a List of Posts",
+			"url": "https://www.facebook.com/\n?Authorization: Bearer=abc123xyz\n",
+			"time": 219,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				219
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "3fdf262f-34cd-40ac-876e-1b803272f075",
+			"name": "Delete a Post",
+			"url": "https://www.facebook.com/",
+			"time": 232,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				232
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1261,
+	"collection": {
+		"requests": [
+			{
+				"id": "8efb22ce-5ee5-473c-a916-1335bb3912a4",
+				"method": "POST"
+			},
+			{
+				"id": "376fe30c-0509-453c-a992-ee5b4e35c66d",
+				"method": "POST"
+			},
+			{
+				"id": "ebd896a3-9b1e-41b2-9148-f5cfdd7f05ef",
+				"method": "POST"
+			},
+			{
+				"id": "049f4513-2364-4470-8429-45145976945c",
+				"method": "GET"
+			},
+			{
+				"id": "3fdf262f-34cd-40ac-876e-1b803272f075",
+				"method": "DELETE"
+			}
+		]
+	}
+}
